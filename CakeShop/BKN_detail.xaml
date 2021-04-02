@@ -1,0 +1,33 @@
+﻿<Window x:Class="CakeShop.BKN_detail"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CakeShop"
+        mc:Ignorable="d"
+        Title="BKN_detail" Height="450" Width="900" Background="#edf6f9" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"/>
+            <ColumnDefinition Width="300" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Image Source="image/orvn.png" Margin="0,0,0,192"/>
+        <Image Source="image/stdm.png" Margin="0,0,-0.4,192" Grid.Column="1"/>
+        <Image Source="image/mbck.png" Margin="0,0,0,192" Grid.Column="2"/>
+        <Label Content="Orange Vani" Foreground="#f07167" FontWeight="DemiBold" FontSize="25" HorizontalAlignment="Center" Margin="76,233,31,138" Width="193"  />
+        <Label Content="Strawberry Dome" Foreground="#f07167" FontWeight="DemiBold" FontSize="25" HorizontalAlignment="Center" Margin="43,233,23,138" Width="234" Grid.Column="1" />
+        <Label Content="Marble CheeseCake" Foreground="#f07167" FontWeight="DemiBold" FontSize="25" HorizontalAlignment="Center" Margin="29,233,9.6,138" Width="255" Grid.Column="2"  />
+        <TextBlock Foreground="#f07167" FontSize="20" Margin="10,287,10,10">
+            <Run Text="Cảm nhận vị cam hòa quyện"/><LineBreak/>
+            <Run Text="  giữa lớp kem mousse béo"/><LineBreak/>
+            <Run Text="    ngọt và bánh bông lan"/><LineBreak/>
+            <Run Text="             mịn "/><Run Text="màng."/></TextBlock>
+        <TextBlock Foreground="#f07167" FontSize="20" Margin="20,287,0,0" Grid.Column="1">
+            <Run Text=" Khối cầu mang mùi hương"/><LineBreak/>
+            <Run Text="  dịu nhẹ cùng vị ngọt đến từ"/><LineBreak/>
+            <Run Text="   lớp kem mousse và kem"/><LineBreak/>
+            <Run Text="                sữa tươi."/></TextBlock>
+        <TextBlock Foreground="#f07167" FontSize="20" Margin="5,287,-0.4,0" Grid.Column="2"><Run Text=" Từ vị béo của phô mai anchor"/><LineBreak/><Run Text=" hoà cùng vị ngọt của chocolate"/><LineBreak/><Run Text=" trắng và đen đã tạo nên chiếc"/><LineBreak/><Run Text=" bánh marble cheesecake mềm"/><LineBreak/><Run Text="       mại và thơm ngon."/></TextBlock>
+    </Grid>
+</Window>

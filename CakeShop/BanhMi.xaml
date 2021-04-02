@@ -1,0 +1,22 @@
+﻿<Window x:Class="CakeShop.BanhMi"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CakeShop"
+        mc:Ignorable="d"
+        Title="BanhMi" Height="255.6" Width="430" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded" Background="#2e3137">
+    <Grid>
+        <TextBlock Text="Danh sách các loại bánh mì" Foreground="White" FontSize="20" FontWeight="Bold" FontFamily="Forte" Margin="5,5,0,184.2" HorizontalAlignment="Left" Width="344" TextAlignment="Center"/>
+        <DataGrid Name="myDataGrid"
+                  IsSynchronizedWithCurrentItem="True"
+                  AutoGenerateColumns="True"
+                  HorizontalAlignment="Stretch"
+                  VerticalAlignment="Stretch"
+                  Margin="5,47,116,10.4"  >
+            
+        </DataGrid>
+        <Button x:Name="xem_btn" Click="xem_btn_Click" Content="Xem" Margin="327,77,24,120.4" Background="#545d6a" Foreground="White" FontSize="12"/>
+        <Button x:Name="btAll" Click="btAll_Click" Content="Xem tất cả" Margin="327,128,24,64.4" Background="#545d6a" Foreground="White" FontSize="12"/>
+    </Grid>
+</Window>

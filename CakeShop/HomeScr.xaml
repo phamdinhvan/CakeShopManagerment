@@ -1,0 +1,26 @@
+﻿<Window x:Class="CakeShop.HomeScr"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CakeShop"
+        mc:Ignorable="d"
+        Title="HomeScr" Height="526" Width="690.8" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" >
+    <Window.Background>
+        <ImageBrush ImageSource="image/5.png" />
+    </Window.Background>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="120" />
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Background="#2e3137"/>
+        <Label Grid.Row="0" Content="CakeShop"  FontSize="30" HorizontalAlignment="Center" FontFamily="Forte"
+               Margin="228,0,228.6,69" FontWeight="DemiBold" Width="153" Foreground="White"/>
+        <Button Background="#2e3137" x:Name="Home" Click="Home_Click" Content="Trang chủ" Margin="92,70,489.8,10" Foreground="White" FontWeight="DemiBold"/>
+        <Button Background="#2e3137" x:Name="search" Click="search_Click" Content="Tìm kiếm" Margin="298,70,282.8,10" Foreground="White" FontWeight="DemiBold"/>
+        <Button Background="#2e3137" x:Name="create" Click="create_Click" Content="Loại Bánh" Margin="195,70,386.8,10" Foreground="White" FontWeight="DemiBold"/>
+        <Button Background="#2e3137" x:Name="stactics" Click="stactics_Click" Content="Thống kê" Margin="402,70,184.8,10" Foreground="White" FontWeight="DemiBold" RenderTransformOrigin="0.153,0.603"/>
+        <Button Background="#2e3137" x:Name="HoaDon" Click="Hoadon_Click" Content="Tạo Hoá Đơn" Margin="500,70,82.8,10" Foreground="White" FontWeight="DemiBold"/>
+    </Grid>
+</Window>

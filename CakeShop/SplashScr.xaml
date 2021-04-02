@@ -1,0 +1,16 @@
+﻿<Window x:Class="CakeShop.SplashScr"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CakeShop"
+        mc:Ignorable="d"
+        Title="SplashScr" Height="486" Width="626.2" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="None" MouseLeftButtonDown="Window_MouseLeftButtonDown">
+    <Window.Background>
+        <ImageBrush ImageSource="image/2.jpeg" />
+    </Window.Background>
+    <Canvas>
+        <CheckBox Content="Do not show this dialog" Checked="checkBox" Canvas.Left="425" Canvas.Top="456" FontWeight="DemiBold" FontSize="16" RenderTransformOrigin="0.306,0.683" >
+        </CheckBox>
+    </Canvas>
+</Window>

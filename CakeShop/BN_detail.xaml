@@ -1,0 +1,36 @@
+﻿<Window x:Class="CakeShop.BN_detail"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CakeShop"
+        mc:Ignorable="d"
+        Title="BN_detail" Height="450" Width="900" Background="#edf6f9" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"/>
+            <ColumnDefinition Width="300" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Image Source="image/dmhn.png" Margin="0,0,0,192"/>
+        <Image Source="image/dxbl.png" Margin="0,0,-0.4,192" Grid.Column="1"/>
+        <Image Source="image/sukem.png" Margin="0,0,0,192" Grid.Column="2"/>
+        <Label Content="Đan Mạch Hạnh Nhân" Foreground="#f07167" FontWeight="DemiBold" FontSize="25" HorizontalAlignment="Center" Margin="20,233,0,138" Width="280"  />
+        <Label Content="Đậu Xanh Blueberry" Foreground="#f07167" FontWeight="DemiBold" FontSize="25" HorizontalAlignment="Center" Margin="27,233,28,138" Width="245" Grid.Column="1" />
+        <Label Content="Su kem" Foreground="#f07167" FontWeight="DemiBold" FontSize="25" HorizontalAlignment="Center" Margin="107,233,68.6,138" Width="118" Grid.Column="2"  />
+        <TextBlock Foreground="#f07167" FontSize="20" Margin="20,302,31,10">
+            <Run Text="Bánh đan mạnh hạnh nhân"/><LineBreak/>
+            <Run Text=" lát thơm ngon càng thêm"/><LineBreak/>
+            <Run Text="  đặc biệt với lớp kem bơ"/><LineBreak/>
+            <Run Text="             béo ngọt."/></TextBlock>
+        <TextBlock Foreground="#f07167" FontSize="20" Margin="27,302,24,0" Grid.Column="1">
+            <Run Text="Mứt blueberry thơm lừng"/><LineBreak/>
+            <Run Text=" ngọt ngào kết hợp với"/><LineBreak/>
+            <Run Text="   chiếc bánh đậu xanh "/><LineBreak/>
+            <Run Text="             đậm"/><Run Text=" vị."/></TextBlock>
+        <TextBlock Foreground="#f07167" FontSize="20" Margin="10,302,9.6,3" Grid.Column="2">
+            <Run Text=" Lớp vỏ giòn giòn, mềm và "/><LineBreak/>
+            <Run Text=" thơm phức với lớp kem béo "/><LineBreak/>
+            <Run Text="        mịn ngon tuyệt."/></TextBlock>
+    </Grid>
+</Window>

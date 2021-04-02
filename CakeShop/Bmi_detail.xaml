@@ -1,0 +1,33 @@
+﻿<Window x:Class="CakeShop.Bmi_detail"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CakeShop"
+        mc:Ignorable="d"
+        Title="Bmi_detail" Height="450" Width="900" Background="#edf6f9" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"/>
+            <ColumnDefinition Width="300" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Image Source="image/bmCA.png" Margin="0,0,0,192"/>
+        <Image Source="image/bmSNam.png" Margin="0,0,-0.4,192" Grid.Column="2"/>
+        <Image Source="image/bmsalad.png" Margin="0,0,0,192" Grid.Column="1"/>
+        <Label Content="Bánh Mì Châu Âu" Foreground="#f07167" FontWeight="DemiBold" FontSize="25" HorizontalAlignment="Center" Margin="42,246,43,125" Width="215"  />
+        <Label Content="Bánh Mì Salad" Foreground="#f07167" FontWeight="DemiBold" FontSize="25" HorizontalAlignment="Center" Margin="60,246,45,125" Width="195" Grid.Column="1" />
+        <Label Content="Bánh Mì Sốt Nấm" Foreground="#f07167" FontWeight="DemiBold" FontSize="25" HorizontalAlignment="Center" Margin="44,246,30.6,125" Width="219" Grid.Column="2"  />
+        <TextBlock Foreground="#f07167" FontSize="20" Margin="20,300,0,10" Grid.Column="1">
+            <Run Text="    Bánh mì kèp salad nhiều "/><LineBreak/>
+            <Run Text="thành phần gồm jambon, cà"/><LineBreak/>
+            <Run Text=" rốt, bắp, bắp cải, dưa leo và "/><LineBreak/>
+            <Run Text="     sốt mayonaise sauce."/></TextBlock>
+        <TextBlock Foreground="#f07167" FontSize="20" Margin="10,300,10,10">
+            <Run Text="Bên cạnh một chút vị ngọt nhẹ"/><LineBreak/>
+            <Run Text=" đến từ bánh mì, còn có chút "/><LineBreak/>
+            <Run Text=" vị mặn của chà bông và béo"/><LineBreak/>
+            <Run Text="       thơm của trứng cút."/></TextBlock>
+        <TextBlock Foreground="#f07167" FontSize="20" Margin="10,295,9.6,5" Grid.Column="2"><Run Text="Chiếc bánh thơm ngon mang"/><LineBreak/><Run Text=" mùi vị độc đáo đến từ sốt "/><LineBreak/><Run Text="         nấm và thịt ham"/></TextBlock>
+    </Grid>
+</Window>
